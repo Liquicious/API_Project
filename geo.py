@@ -32,7 +32,6 @@ def get_geo_info(city_name, type_info):
         except Exception as e:
             return e
 
-
 def get_distance(p1, p2):
     radius = 6373.0
 
@@ -50,7 +49,6 @@ def get_distance(p1, p2):
 
     distance = radius * c
     return distance
-
 
 def get_calculation(cities):
     if not cities:
